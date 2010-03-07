@@ -74,8 +74,19 @@ section#content {
 
 .content a:hover {
 	color: #666;
-	padding: 2px 0 0;
 	border-bottom: 1px solid #666;
+}
+
+a.download:link, a.download:active, a.download:visited {
+	float: right;
+	margin: 6px 0;
+	padding: 4px 6px;
+	border: 0;
+}
+
+a.download:hover {
+	color: #101010;
+	background: #e1e1e1;
 }
 
 /* @group Social */
@@ -148,7 +159,7 @@ ul.social li {
 footer {
 	background: #101010;
 	color: #fff;
-	clear: left;
+	clear: both;
 	width: 420px;
 	font-size: 1.1em;
 	margin: 0 auto;
@@ -175,3 +186,10 @@ footer a:hover {
 }
 
 /* @end */
+
+.clear {
+	clear: both;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
