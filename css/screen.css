@@ -1,0 +1,177 @@
+/* 
+Theme Name: Fleeting vCard
+Theme URI: http://jamesfleeting.com
+Description: 2010 vCard for JamesFleeting.com
+Version: 1.0
+Author: James Fleeting
+Author URL: http://jamesfleeting.com
+*/
+
+body {
+	background: #333 url(../images/bg.jpg) repeat 0 0;
+	font: 75% "Arial", Verdana, sans-serif;
+	color: #fff;
+	text-align: left;
+}
+
+@font-face {
+  font-family: 'ChunkFive';
+  src: url('../fonts/Chunkfive.eot');
+  src: local('ChunkFive Regular'), local('ChunkFive'), 
+         url('../fonts/Chunkfive.otf') format('opentype');
+}
+
+header, footer, section, aside {
+	display: block;
+}
+
+/* @group header */
+
+header {
+	width: 540px;
+	margin: 45px auto 0;
+	text-align: center;
+}
+
+header a:link, header a:active, header a:visited {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dashed #fff;
+}
+
+header a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+header h1 {
+	margin-bottom: 0;
+	font: 5em bold 'ChunkFive', sans-serif;
+	color: #fff;
+}
+
+header h1:hover {
+	text-shadow: 2px 2px 2px #000;
+}
+
+header h2 {
+	font-size: 1.5em;
+}
+
+/* @end */
+
+/* @group section */
+
+section#content {
+	width: 540px;
+	margin: 0 auto;
+}
+
+.content a:link, .content a:active, .content a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+.content a:hover {
+	color: #666;
+	padding: 2px 0 0;
+	border-bottom: 1px solid #666;
+}
+
+/* @group Social */
+
+ul.social {
+	margin: 25px 0 25px 55px;
+	padding: 0 6px;
+	width: 420px;
+	float: left;
+}
+
+ul.social li {
+	margin: 0 0 10px 0;
+	display: block;
+	float: left;
+	width: 208px;
+}
+
+.social li a:link,
+.social li a:visited,
+.social li a:active {
+	background-position: 4px 5px;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: block;
+	font-size: 1.4em;
+	padding: 10px 5px 10px 50px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 0;
+}
+
+.social li a:hover {
+	background-position: 3px 4px;
+	background-color: #e1e1e1;
+	color: #101010;
+	text-shadow: 2px 2px 2px #c8c8c8;
+}
+
+.rss { background-image: url(../images/icons/rss_32.png); }
+.email { background-image: url(../images/icons/email_32.png); }
+.delicious { background-image: url(../images/icons/delicious_32.png); }
+.dopplr { background-image: url(../images/icons/dopplr_32.png); }
+.tumblr { background-image: url(../images/icons/tumblr_32.png); }
+.flickr { background-image: url(../images/icons/flickr_32.png); }
+.linkedin {	background-image: url(../images/icons/linkedin_32.png); }
+.lastfm { background-image: url(../images/icons/lastfm_32.png); }
+.twitter { background-image: url(../images/icons/twitter_32.png); }
+.gowalla { background-image: url(../images/icons/gowalla_32.png); }
+.digg { background-image: url(../images/icons/digg_32.png); }
+.vimeo { background-image: url(../images/icons/vimeo_32.png); }
+.facebook {	background-image: url(../images/icons/facebook_32.png); }
+.deviantart { background-image: url(../images/icons/deviantart_32.png); }
+.google { background-image: url(../images/icons/google_32.png); }
+.thesixtyone { background-image: url(../images/icons/thesixtyone_32.png); }
+.youtube { background-image: url(../images/icons/youtube_32.png); }
+.github { background-image: url(../images/icons/github_32.png); }
+.ember { background-image: url(../images/icons/ember_32.png); }
+.dailybooth { background-image: url(../images/icons/dailybooth_32.png); }
+.qik { background-image: url(../images/icons/qik_32.png); }
+.ustream { background-image: url(../images/icons/ustream_32.png); }
+
+/* @end */
+
+/* @end */
+
+/* @group footer */
+
+footer {
+	background: #101010;
+	color: #fff;
+	clear: left;
+	width: 420px;
+	font-size: 1.1em;
+	margin: 0 auto;
+	padding: 15px 6px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	opacity: 0.25;
+}
+
+footer:hover {
+	opacity: 0.75;
+	-webkit-transition: opacity 1s linear;
+}
+
+footer a:link, footer a:visited, footer a:active {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dashed #fff;
+}
+
+footer a:hover {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/* @end */
