@@ -1,0 +1,5 @@
+h1. vCard
+
+This is the code used on jamesfleeting.com. There isn't much here as its just a simple vCard but feel free to steal it, borrow it, destroy it or use it however you want. 
+
+I take no credit for the icons used. All icons are from Komodo Media's Social Media Network Icons (http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/). I created the Gowalla, thesixtyone, Github, Dailybooth and uStream icons from the site logos using the same style as the icons from Komodo's pack. These are not found in the icon pack so feel free to use them as well. 
